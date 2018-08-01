@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { TabBar,NavBar,Icon} from 'antd-mobile';
 class TheHistory extends Component {
     constructor(props) {
         super(props);
@@ -9,7 +9,9 @@ class TheHistory extends Component {
     render() {
         return (
             <div>
-                History page
+                <NavBar 
+                mode="dark"
+                >历史</NavBar>
             </div>
         );
     }

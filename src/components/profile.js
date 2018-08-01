@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { TabBar,NavBar,Icon} from 'antd-mobile';
 class Profile extends Component {
     constructor(props) {
         super(props);
@@ -9,7 +9,9 @@ class Profile extends Component {
     render() {
         return (
             <div>
-                Profile page
+                <NavBar 
+                mode="dark"
+                >个人</NavBar>
             </div>
         );
     }
